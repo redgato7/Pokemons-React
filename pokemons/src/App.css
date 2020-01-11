@@ -1,0 +1,45 @@
+body {
+    background: #FFEFBA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pokemon {
+    background: #fffbd5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b20a2c, #fffbd5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #570414;
+    width: 10rem;
+    padding: 1rem;
+    margin: 2rem auto;
+    border-radius: 0.7rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.pagination {
+    margin: 2rem auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.btn {
+    width: 60px;
+    height: 20px;
+    background-color: #b20a2c;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10%;
+    color: #fffbd5;
+}
